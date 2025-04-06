@@ -72,3 +72,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Fonts/The Abandoned Treasure SDF.asset
+Assets/Fonts/The Abandoned Treasure.ttf
+Assets/_Recovery.meta
+Packages/com.singularitygroup.hotreload/
+Assets/TextMesh Pro/
