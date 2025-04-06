@@ -4876,7 +4876,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 9eaf7a2857e9cc74789f5e186a699b90, type: 3}
   m_Resource: {fileID: 8300000, guid: 9eaf7a2857e9cc74789f5e186a699b90, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12158,6 +12158,7 @@ MonoBehaviour:
   leftHandPivot: {fileID: 54928759}
   rightHandPivot: {fileID: 1103766559}
   spawnForceArea: {fileID: 1092689210}
+  splashprefab: {fileID: 5902149507100122090, guid: 08c2cdd7c75d7e04db94cc68e845a31c, type: 3}
   gameOverMenu: {fileID: 729018097}
   gameFinishedMenu: {fileID: 1231362256}
   hpSlider: {fileID: 1512390776}
@@ -12174,7 +12175,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 588f1d91c3ebb7544b0882a9a984edbd, type: 3}
   m_Resource: {fileID: 8300000, guid: 588f1d91c3ebb7544b0882a9a984edbd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

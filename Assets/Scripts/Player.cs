@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public Transform rightHandPivot;
     public Transform spawnForceArea;
 
+    public GameObject splashprefab;
     public GameObject gameOverMenu;
     public GameObject gameFinishedMenu;
     //float minAngleLeft = -15f;
@@ -65,6 +66,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log("1");
+
         if (isStarted == false)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -166,13 +169,16 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Water"))
         {
+            if (isInWater) return; // already in water
             isInWater = true;
+            var splash = Instantiate(splashprefab, transform.position-Vector3.up*0.3f, Quaternion.identity);
             collision.GetComponent<AudioSource>().Play();
             rb.linearDamping = 2.9f;
         }
 
         if (collision.CompareTag("Enemy"))
         {
+            if (isDed) return; // already dead
             Debug.Log("dead");
 
             collision.GetComponent<AudioSource>().Play();
