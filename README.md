@@ -1,6 +1,8 @@
 # LD57_Depths
 source for ludumdare 57 compo<br>
+
 Entry: https://ldjam.com/events/ludum-dare/57/treasures
+BlogPost: https://unitycoder.com/blog/2025/04/08/ludumdare57-theme-depths/
 
 ### Images
 
